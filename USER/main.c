@@ -2,10 +2,15 @@
 
 int main()
 {
-	int i=0;
 	uart_init(9600);
-	for(;i<10;i++)
+	KEY_Init();
+	while(1)
 	{
-		uart_tx_bytes(2,"nihao\n",7);
+		uint8_t a=KEY_GetKey();
+		if(a!=KEY_OFF)
+		{
+			uart_tx_bytes(2,&a,1);
+			uart_tx_bytes(2,"\n",1);
+		}
 	}
 }
