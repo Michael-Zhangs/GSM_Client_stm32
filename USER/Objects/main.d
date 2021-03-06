@@ -33,6 +33,7 @@
 .\objects\main.o: ..\FWLib\inc\misc.h
 .\objects\main.o: ..\HARDWARE\bsp_flash.h
 .\objects\main.o: ..\HARDWARE\bsp_12864.h
+.\objects\main.o: ..\SYSTEM\delay.h
 .\objects\main.o: ..\HARDWARE\bsp_GSM.h
 .\objects\main.o: ..\HARDWARE\bsp_printer.h
 .\objects\main.o: ..\HARDWARE\bsp_keyboard.h

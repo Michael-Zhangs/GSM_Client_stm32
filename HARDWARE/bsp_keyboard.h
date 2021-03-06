@@ -2,6 +2,7 @@
 #define __BSP_KEYBOARD_H
 
 #include "stm32f10x.h"
+#include "delay.h"
 
 #define KEY_GPIO_CLK	RCC_APB2Periph_GPIOB
 #define KEY_GPIO_PORT	GPIOB

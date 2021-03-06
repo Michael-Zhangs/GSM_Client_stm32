@@ -29,3 +29,4 @@
 .\objects\bsp_keyboard.o: ..\FWLib\inc\stm32f10x_usart.h
 .\objects\bsp_keyboard.o: ..\FWLib\inc\stm32f10x_wwdg.h
 .\objects\bsp_keyboard.o: ..\FWLib\inc\misc.h
+.\objects\bsp_keyboard.o: ..\SYSTEM\delay.h

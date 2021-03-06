@@ -9,5 +9,6 @@
 #include "bsp_keyboard.h"
 #include "interrupt.h"
 #include "uart.h"
+#include "delay.h"
 
 #endif
