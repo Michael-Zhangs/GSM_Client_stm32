@@ -107,6 +107,8 @@ void UI_SendMsg_hander()
 		if(flag==0)
 			break;
 	}
+	//uart_SendStr(1,"Hello\n");
+	GSM_SendMsg(num,"Hello World!");
 }
 
 void UI_ReceiveMsg_hander()

@@ -53,6 +53,6 @@
 void uart_init( uint32_t UartBaudRate );
 void uart_tx_bytes(uint8_t port, uint8_t* TxBuffer, uint8_t Length );
 uint8_t uart_rx_bytes(uint8_t port, uint8_t* RxBuffer );
-
+void uart_SendStr(uint8_t port, uint8_t* dat);
 
 #endif

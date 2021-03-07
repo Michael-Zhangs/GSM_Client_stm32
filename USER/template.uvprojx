@@ -369,7 +369,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_MD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\FWLib\inc;..\CORE;..\HARDWARE;..\USER</IncludePath>
+              <IncludePath>..\FWLib\inc;..\CORE;..\HARDWARE;..\USER;..\SYSTEM</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -566,9 +566,63 @@
         </Group>
         <Group>
           <GroupName>HARDWARE</GroupName>
+          <Files>
+            <File>
+              <FileName>bsp_12864.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\bsp_12864.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_GSM.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\bsp_GSM.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_keyboard.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\bsp_keyboard.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_printer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\bsp_printer.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_flash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\bsp_flash.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>SYSTEM</GroupName>
+          <Files>
+            <File>
+              <FileName>interrupt.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SYSTEM\interrupt.c</FilePath>
+            </File>
+            <File>
+              <FileName>uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SYSTEM\uart.c</FilePath>
+            </File>
+            <File>
+              <FileName>delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SYSTEM\delay.c</FilePath>
+            </File>
+            <File>
+              <FileName>fonts.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SYSTEM\fonts.c</FilePath>
+            </File>
+            <File>
+              <FileName>UI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SYSTEM\UI.c</FilePath>
+            </File>
+          </Files>
         </Group>
       </Groups>
     </Target>

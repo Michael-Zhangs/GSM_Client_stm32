@@ -32,6 +32,6 @@
 .\objects\ui.o: ..\FWLib\inc\misc.h
 .\objects\ui.o: ..\SYSTEM\delay.h
 .\objects\ui.o: ..\HARDWARE\bsp_GSM.h
-.\objects\ui.o: ..\HARDWARE\bsp_keyboard.h
-.\objects\ui.o: ..\HARDWARE\bsp_printer.h
 .\objects\ui.o: ..\SYSTEM\uart.h
+.\objects\ui.o: ..\HARDWARE\bsp_printer.h
+.\objects\ui.o: ..\HARDWARE\bsp_keyboard.h
