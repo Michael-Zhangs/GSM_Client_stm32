@@ -38,3 +38,4 @@
 .\objects\main.o: ..\HARDWARE\bsp_printer.h
 .\objects\main.o: ..\HARDWARE\bsp_keyboard.h
 .\objects\main.o: ..\SYSTEM\interrupt.h
+.\objects\main.o: ..\SYSTEM\fonts.h

@@ -10,5 +10,6 @@
 #include "interrupt.h"
 #include "uart.h"
 #include "delay.h"
+#include "fonts.h"
 
 #endif

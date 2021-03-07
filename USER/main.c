@@ -18,8 +18,15 @@ int main()
 		uint8_t a=KEY_GetKey();
 		if(a!=KEY_OFF)
 		{
-			PRINTER_Print("ÄãºÃ\n");
+			unsigned int a=uni2gb(0x4f60);
+			unsigned int b=uni2gb(0x597d);
+			uint8_t dat[4];
 			LCD_Display_Words(3,0,"ÄãºÃ");
+			dat[0]=(b>>8)&0x00ff;
+			dat[1]=(b)&0x00ff;
+			dat[2]='\n';
+			dat[3]='\0';
+			PRINTER_Print(dat);
 		}
 	}
 }
