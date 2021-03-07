@@ -11,5 +11,6 @@
 #include "uart.h"
 #include "delay.h"
 #include "fonts.h"
+#include "UI.h"
 
 #endif
