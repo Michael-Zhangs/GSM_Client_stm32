@@ -11,31 +11,32 @@ void GSM_SendMsg(uint8_t* num, uint8_t* data)
 		cmd[i+9]=*(num+i);
 		i++;
 	}
-	uart_SendStr(1,num);
-	cmd[i+9]='\n';
-	cmd[i+10]='\0';
-	uart_SendStr(1,"AT\n");
-	Delayms(100);
+	cmd[i+9]='\"';
+	cmd[i+10]='\r';
+	cmd[i+11]='\n';
+	cmd[i+12]='\0';
+	uart_SendStr(1,"AT\r\n");
+	Delayms(1000);
 	if(!uart_rx_bytes(1,RBuffer))
 		PRINTER_Print("No\n\n");
-	uart_SendStr(1,"AT+CSCS=\"GSM\"\n");
+	uart_SendStr(1,"AT+CSCS=\"GSM\"\r\n");
 	uart_rx_bytes(1,RBuffer);
 	PRINTER_Print(RBuffer);
-	Delayms(100);
-	uart_SendStr(1,"AT+CMGF=1\n");
+	Delayms(1000);
+	uart_SendStr(1,"AT+CMGF=1\r\n");
 	uart_rx_bytes(1,RBuffer);
 	PRINTER_Print(RBuffer);
-	Delayms(100);
+	Delayms(1000);
 	uart_SendStr(1,cmd);
 	uart_rx_bytes(1,RBuffer);
 	PRINTER_Print(RBuffer);
-	Delayms(100);
+	Delayms(10000);
 	uart_SendStr(1,data);
 	uart_rx_bytes(1,RBuffer);
 	PRINTER_Print(RBuffer);
-	Delayms(100);
+	Delayms(1000);
 	uart_tx_bytes(1,&a,1);
 	uart_rx_bytes(1,RBuffer);
 	PRINTER_Print(RBuffer);
-	Delayms(100);
+	Delayms(1000);
 }

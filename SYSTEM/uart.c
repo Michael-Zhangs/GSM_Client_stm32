@@ -138,7 +138,6 @@ void uart_SendStr(uint8_t port, uint8_t* dat)
 {
 	int i=0;
 	while(*(dat+i)!='\0')i++;
-	i++;
 	uart_tx_bytes(port, dat, i);
 }
 

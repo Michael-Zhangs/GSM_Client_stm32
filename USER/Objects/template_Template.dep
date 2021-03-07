@@ -801,7 +801,7 @@ I (..\FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\FWLib\inc\misc.h)(0x4D783BB4)
 I (..\SYSTEM\delay.h)(0x6043AB15)
-F (..\HARDWARE\bsp_GSM.c)(0x60449074)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\FWLib\inc -I..\CORE -I..\HARDWARE -I..\USER -I..\SYSTEM-I C:\Users\root\Desktop\template\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\bsp_gsm.o --omf_browse .\objects\bsp_gsm.crf --depend .\objects\bsp_gsm.d)
+F (..\HARDWARE\bsp_GSM.c)(0x6044B3E3)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\FWLib\inc -I..\CORE -I..\HARDWARE -I..\USER -I..\SYSTEM-I C:\Users\root\Desktop\template\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\bsp_gsm.o --omf_browse .\objects\bsp_gsm.crf --depend .\objects\bsp_gsm.d)
 I (..\HARDWARE\bsp_GSM.h)(0x60448A6A)
 I (..\SYSTEM\uart.h)(0x6044894F)
 I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
@@ -901,7 +901,7 @@ F (..\HARDWARE\bsp_flash.c)(0x60434CC7)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 -
 I (..\HARDWARE\bsp_flash.h)(0x60434CE4)
 F (..\SYSTEM\interrupt.c)(0x60434D52)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\FWLib\inc -I..\CORE -I..\HARDWARE -I..\USER -I..\SYSTEM-I C:\Users\root\Desktop\template\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\interrupt.o --omf_browse .\objects\interrupt.crf --depend .\objects\interrupt.d)
 I (..\SYSTEM\interrupt.h)(0x60434D8E)
-F (..\SYSTEM\uart.c)(0x6044894F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\FWLib\inc -I..\CORE -I..\HARDWARE -I..\USER -I..\SYSTEM-I C:\Users\root\Desktop\template\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+F (..\SYSTEM\uart.c)(0x6044B37E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\FWLib\inc -I..\CORE -I..\HARDWARE -I..\USER -I..\SYSTEM-I C:\Users\root\Desktop\template\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
 I (..\SYSTEM\uart.h)(0x6044894F)
 I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
@@ -963,7 +963,7 @@ I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\FWLib\inc\misc.h)(0x4D783BB4)
 F (..\SYSTEM\fonts.c)(0x60447212)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\FWLib\inc -I..\CORE -I..\HARDWARE -I..\USER -I..\SYSTEM-I C:\Users\root\Desktop\template\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\fonts.o --omf_browse .\objects\fonts.crf --depend .\objects\fonts.d)
 I (..\SYSTEM\fonts.h)(0x60447221)
-F (..\SYSTEM\UI.c)(0x60448F85)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\FWLib\inc -I..\CORE -I..\HARDWARE -I..\USER -I..\SYSTEM-I C:\Users\root\Desktop\template\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\ui.o --omf_browse .\objects\ui.crf --depend .\objects\ui.d)
+F (..\SYSTEM\UI.c)(0x6044BDE7)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\FWLib\inc -I..\CORE -I..\HARDWARE -I..\USER -I..\SYSTEM-I C:\Users\root\Desktop\template\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\ui.o --omf_browse .\objects\ui.crf --depend .\objects\ui.d)
 I (..\SYSTEM\UI.h)(0x60446EBC)
 I (..\HARDWARE\bsp_12864.h)(0x6043B692)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
